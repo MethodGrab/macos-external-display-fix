@@ -26,8 +26,10 @@ This is based on my [original gist](https://gist.github.com/MethodGrab/ef8d254f4
 	`~/Downloads` is the path `patch-edid.rb` was run in.  
 	Note: the path is `/Library/...`, **not** `/System/Library/...`.  
 
-	1. `sudo mkdir -p /Library/Displays/Contents/Resources/Overrides`
-	1. `sudo cp -r ~/Downloads/DisplayVendorID-XXXX /Library/Displays/Contents/Resources/Overrides`
+	```shell
+	sudo mkdir -p /Library/Displays/Contents/Resources/Overrides
+	sudo cp -r ~/Downloads/DisplayVendorID-XXXX /Library/Displays/Contents/Resources/Overrides
+	```
 
 1. Reboot.
 1. That's it!
@@ -72,10 +74,12 @@ This is based on my [original gist](https://gist.github.com/MethodGrab/ef8d254f4
 	`YYYY` is the suffix of the file it created.  
 	`/Volumes/Macintosh\ HD/Users/me/Downloads` is the path `patch-edid.rb` was run in.  
 
-	1. `cd /Volumes/Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/`
-	1. `mv DisplayVendorID-XXXX DisplayVendorID-XXXX-BACKUP`
-	1. `mkdir DisplayVendorID-XXXX`
-	1. `cp /Volumes/Macintosh\ HD/Users/me/Downloads/DisplayVendorID-XXXX/DisplayProductID-YYYY ./DisplayVendorID-XXXX`
+	```shell
+	cd /Volumes/Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/
+	mv DisplayVendorID-XXXX DisplayVendorID-XXXX-BACKUP
+	mkdir DisplayVendorID-XXXX
+	cp /Volumes/Macintosh\ HD/Users/me/Downloads/DisplayVendorID-XXXX/DisplayProductID-YYYY ./DisplayVendorID-XXXX
+	```
 
 1. Reboot back into normal mode.
 1. That's it!
@@ -125,10 +129,12 @@ This is based on my [original gist](https://gist.github.com/MethodGrab/ef8d254f4
 	`YYYY` is the suffix of the file it created.  
 	`/Volumes/Macintosh\ HD/Users/me/Downloads` is the path `patch-edid.rb` was run in.  
 
-	1. `cd /Volumes/Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/`
-	1. `mv DisplayVendorID-XXXX DisplayVendorID-XXXX-BACKUP`
-	1. `mkdir DisplayVendorID-XXXX`
-	1. `cp /Volumes/Macintosh\ HD/Users/me/Downloads/DisplayVendorID-XXXX/DisplayProductID-YYYY ./DisplayVendorID-XXXX`
+	```shell
+	cd /Volumes/Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/
+	mv DisplayVendorID-XXXX DisplayVendorID-XXXX-BACKUP
+	mkdir DisplayVendorID-XXXX
+	cp /Volumes/Macintosh\ HD/Users/me/Downloads/DisplayVendorID-XXXX/DisplayProductID-YYYY ./DisplayVendorID-XXXX
+	```
 
 1. [Re-enable SIP](https://www.macworld.com/article/2986118/security/how-to-modify-system-integrity-protection-in-el-capitan.html):
 
@@ -182,10 +188,12 @@ This is based on my [original gist](https://gist.github.com/MethodGrab/ef8d254f4
 	`YYYY` is the suffix of the file it created.  
 	`/Volumes/Macintosh\ HD/Users/me/Downloads` is the path `patch-edid.rb` was run in.  
 
-	1. `cd /Volumes/Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/`
-	1. `mv DisplayVendorID-XXXX DisplayVendorID-XXXX-BACKUP`
-	1. `mkdir DisplayVendorID-XXXX`
-	1. `cp /Volumes/Macintosh\ HD/Users/me/Downloads/DisplayVendorID-XXXX/DisplayProductID-YYYY ./DisplayVendorID-XXXX`
+	```shell
+	cd /Volumes/Macintosh\ HD/System/Library/Displays/Contents/Resources/Overrides/
+	mv DisplayVendorID-XXXX DisplayVendorID-XXXX-BACKUP
+	mkdir DisplayVendorID-XXXX
+	cp /Volumes/Macintosh\ HD/Users/me/Downloads/DisplayVendorID-XXXX/DisplayProductID-YYYY ./DisplayVendorID-XXXX
+	```
 
 1. [Re-enable SIP](https://www.macworld.com/article/2986118/security/how-to-modify-system-integrity-protection-in-el-capitan.html):
 
